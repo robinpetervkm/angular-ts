@@ -1,1 +1,2 @@
-const myName: string = 123;
+const myName: string = 'Robin';
+/* string --> type annotation */
