@@ -1,1 +1,1 @@
-console.log("Hi there!!");
+const myName: string = 'Robin';
