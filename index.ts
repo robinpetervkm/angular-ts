@@ -2,6 +2,8 @@ const sentence = 'This is a sentence';
 
 sentence.includes('is');
 
+sentence.contains('is');
+
 /* why r we using typescript
 **********************************
 
