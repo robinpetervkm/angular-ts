@@ -1,15 +1,13 @@
-let myName = 'Robin';
+let myName;
 
-myName = 12 ;
+if ( 1 === 1){
+  myName = 'Robin';
+}else{
+  myName = 'erdsdsdad';
+}
 
-myName = 'Robin Peter';
 
+myName = 123;
 
-/* Type Inference
-********************
+myName = null;
 
-Typescript is smart ! it can figure out things for us 
-
-if we initialize and assign a variable on a single line, Typescript will try to figure out the type of variable for us
-
-We rely on this behavior extremely frequently except in a couple of corner cases. */
