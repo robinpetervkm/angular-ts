@@ -1,4 +1,4 @@
-let myName;
+let myName:string;
 
 if ( 1 === 1){
   myName = 'Robin';
