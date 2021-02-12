@@ -1,13 +1,11 @@
-let myName:string;
+const sentence = 'This is a sentence';
 
-if ( 1 === 1){
-  myName = 'Robin';
-}else{
-  myName = 'erdsdsdad';
-}
+sentence.includes('is');
+
+/* why r we using typescript
+**********************************
+
+Typescript konws about the different properties and methods that every type 
 
 
-myName = 123;
-
-myName = null;
-
+If we refer to properties or methods that dont exist on a value, it will display a error */
