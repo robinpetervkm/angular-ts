@@ -1,10 +1,15 @@
-const myName: string = 'Robin';
-/* string --> type annotation */
-/* 
-string      eg- 'apple', 'banana' , 'templte string'
-number      eg- 3 , 0 ,  10.00001 , -9 
-boolean     eg- true , false 
-undefined   eg- undefined
-null        eg- null
-any         eg- 10 , false , 'hi there!' ,  {color:'red'}
- */
+let myName = 'Robin';
+
+myName = 12 ;
+
+myName = 'Robin Peter';
+
+
+/* Type Inference
+********************
+
+Typescript is smart ! it can figure out things for us 
+
+if we initialize and assign a variable on a single line, Typescript will try to figure out the type of variable for us
+
+We rely on this behavior extremely frequently except in a couple of corner cases. */
